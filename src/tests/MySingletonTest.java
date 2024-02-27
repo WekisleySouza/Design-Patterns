@@ -1,6 +1,6 @@
 package tests;
 
-import patterns.MySingleton;
+import patterns.singleton.MySingleton;
 
 public class MySingletonTest {
     public static void start(){
