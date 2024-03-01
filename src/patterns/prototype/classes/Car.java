@@ -14,4 +14,16 @@ public class Car implements Prototype{
     public Car clone(){
         return new Car(this.model, this.price);
     }
+
+    public String getModel() { return model; }
+
+    public float getPrice() { return price; }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
 }

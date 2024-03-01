@@ -1,7 +1,7 @@
-import tests.MyBuilderTest;
+import tests.MyPrototypeTest;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        MyBuilderTest.start();
+        MyPrototypeTest.start();
     }
 }
